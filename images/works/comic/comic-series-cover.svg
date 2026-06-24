@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">AI 漫剧系列封面</title>
+  <desc id="desc">用于 B 站漫剧作品的蓝紫色系列封面</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#11153f"/>
+      <stop offset=".52" stop-color="#4d3cb7"/>
+      <stop offset="1" stop-color="#14b8d4"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".68" cy=".35" r=".62">
+      <stop offset="0" stop-color="#c5fbff" stop-opacity=".62"/>
+      <stop offset=".48" stop-color="#7d69ff" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#11153f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="play" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#bdf6ff"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#07091c" flood-opacity=".55"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="800" rx="40" fill="url(#bg)"/>
+  <rect width="1200" height="800" rx="40" fill="url(#glow)"/>
+  <g fill="none" stroke="#fff" stroke-opacity=".13">
+    <path d="M0 176h1200M0 624h1200"/>
+    <path d="M168 0v800M1032 0v800"/>
+    <circle cx="840" cy="310" r="238"/>
+    <circle cx="840" cy="310" r="310"/>
+  </g>
+  <g filter="url(#shadow)">
+    <circle cx="840" cy="310" r="150" fill="#10142f" fill-opacity=".68" stroke="#fff" stroke-opacity=".34" stroke-width="4"/>
+    <path d="M813 231 930 310 813 389Z" fill="url(#play)"/>
+  </g>
+  <text x="82" y="112" fill="#9ff6ff" font-family="Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="8">AIGC COMIC SERIES</text>
+  <text x="78" y="365" fill="#fff" font-family="Arial, 'PingFang SC', sans-serif" font-size="104" font-weight="800">AI 漫剧</text>
+  <text x="84" y="442" fill="#d5d8ff" font-family="Arial, 'PingFang SC', sans-serif" font-size="34" letter-spacing="10">连续剧集作品</text>
+  <rect x="82" y="516" width="292" height="64" rx="32" fill="#fff" fill-opacity=".12" stroke="#fff" stroke-opacity=".26"/>
+  <text x="126" y="559" fill="#fff" font-family="Arial, 'PingFang SC', sans-serif" font-size="27" font-weight="700">哔哩哔哩 · 7 集</text>
+  <text x="82" y="710" fill="#b8c0e8" font-family="Arial, sans-serif" font-size="23" letter-spacing="4">STORY · VISUAL · MOTION</text>
+</svg>
