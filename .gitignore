@@ -1,0 +1,12 @@
+.vercel
+.git
+.DS_Store
+canvas
+github-upload-batches/
+.netlify
+
+# Tencent Cloud EdgeOne
+.env
+.edgeone/*
+.tef_dist/*
+  
